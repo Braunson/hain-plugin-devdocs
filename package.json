@@ -1,0 +1,26 @@
+{
+  "name": "hain-plugin-devdocs",
+  "version": "0.0.1",
+  "description": "Hain plugin to search on DevDocs.io",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Braunson/hain-plugin-devdocs.git"
+  },
+  "author": "Braunson Yager",
+  "license": "MIT",
+  "keywords": [
+    "hain0"
+  ],
+  "bugs": {
+    "url": "https://github.com/Braunson/hain-plugin-devdocs/issues"
+  },
+  "homepage": "https://github.com/Braunson/hain-plugin-devdocs.git",
+  "hain": {
+    "prefix": "/ddocs",
+    "usage": "type /ddocs to search on DevDocs.io",
+    "icon": "/icon.png",
+    "redirect": "/ddocs "
+  }
+}
