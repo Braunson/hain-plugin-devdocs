@@ -20,7 +20,7 @@ module.exports = (context) => {
         if (payload !== 'open') {
             return;
         }
-        shell.openExternal(`http://devdocs.io/#q=${id}`);
+        shell.openExternal(`https://devdocs.io/#q=${id}`);
     }
 
     return {search, execute};
